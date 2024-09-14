@@ -1,0 +1,15 @@
+.Cards-scroll{
+    height: auto;
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.Cards-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.Cards-image{
+    margin: 10px;
+}
